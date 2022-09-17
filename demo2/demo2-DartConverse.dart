@@ -17,6 +17,7 @@ void main() {
 
   var arr = [1, 2, 3];
   print(arr.toString() is List);
+  print(arr.reversed.toList().toString());
 
   //2.其他类型转为布尔类型
   //isEmpty判断字符串是否为空
