@@ -15,5 +15,4 @@ void main(){
 
  a.execRun();   //间接的调用私有方法
  
-
 }

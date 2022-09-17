@@ -1,6 +1,6 @@
 class Animal{
-  late String _name;   //私有属性
-  late int age; 
+  String _name;   //私有属性
+  int age; 
   //默认构造函数的简写
   Animal(this._name,this.age);
 
@@ -15,7 +15,7 @@ class Animal{
     print('这是一个私有方法');
   }
 
-  void execRun(){
+  execRun(){
     this._run();  //类里面方法的相互调用
   }
 }
